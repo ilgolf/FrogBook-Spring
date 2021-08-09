@@ -17,7 +17,7 @@
 ##### 이러한 자바의 특성을 **Write Once Run Anywhere** 라고 한다.
 
 ### 3. 데이터 메모리 사용 방식
-<img src="/static/useMemory.png" width="450px" height="300px" alt="객체 지향 프로그램의 메모리 사용 방식">
+<img src="/static/useMemory.png" width="450px" height="450px" alt="객체 지향 프로그램의 메모리 사용 방식">
 
 ##### 객체 지향 프로그램에서는 데이터 저장 영역을 그림과 같이 세 개의 영역으로 분할한다.(T 메모리 구조)
 
@@ -37,12 +37,13 @@
 ```java
 
 public class Example {
-    static int calculator(int x, int y) {
-        return x + y;
+    static int calculator(int x, int y) {  // 계산하기위한 함수 
+        return x + y;  
     }
 
     public static void main(String[] args) {
-        System.out.println(calculator(5, 10));
+        // x + y형식으로 중복해서 만들어야할 코드들을 calculator함수가 할일을 줄여줌
+        System.out.println(calculator(5, 10));  
         System.out.println(calculator(6, 7));
         System.out.println(calculator(10, 11));
     }
