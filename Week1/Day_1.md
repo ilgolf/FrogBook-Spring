@@ -17,7 +17,7 @@
 ##### 이러한 자바의 특성을 **Write Once Run Anywhere** 라고 한다.
 
 ### 3. 데이터 메모리 사용 방식
-<img src="/static/useMemory.png" width="450px" height="550px" alt="객체 지향 프로그램의 메모리 사용 방식">
+<img src="/static/useMemory.png" width="643px" height="151px" alt="객체 지향 프로그램의 메모리 사용 방식">
 
 ##### 객체 지향 프로그램에서는 데이터 저장 영역을 그림과 같이 세 개의 영역으로 분할한다.(T 메모리 구조)
 
