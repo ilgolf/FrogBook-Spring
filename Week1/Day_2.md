@@ -32,7 +32,7 @@
 ##### "클래스들의 놀이터" 라고 한다. 현재 코드에서 클래스는 Study 뿐이니 다음과 같이 배치된다.
 #####
 
-<img src="/static/image (1).png" width="382px" height="204px" alt="메인 메서드 실행준비 2단계">
+<img src="/static/image (1).png" width="382px" height="204px" alt="메인 메서드 실행준비 2단계"></img>
 
 ##### 이제 모든 전처리 과정은 끝났다.
 #####
@@ -43,17 +43,31 @@
 ##### 중괄호를 만날 때 마다 생긴다. 
 #####
 
-<img src="/static/image (2).png" width="382px" height="244px" alt="main() 메서드 스택 프레임">
+<img src="/static/image (2).png" width="382px" height="244px" alt="main() 메서드 스택 프레임"></img>
 
 #####
 ##### 이제 한 단계만 거치면 System구문을 실행 시킬 수 있다. 메서드 인자 args를 저장할 변수 공간을 스택 프레임 맨 밑에
 ##### 확보해야 한다. 즉, 메서드 인자(들)의 변수 공간을 할당하는 것이다. 아래 그림 처럼 말이다.
 #####
 
-<img src="/static/image (3).png" width="405px" height="269px" alt="인자 변수 공간 추가">
+<img src="/static/image (3).png" width="405px" height="269px" alt="인자 변수 공간 추가"></img>
 
 #####
 ##### 이제 구문을 실행할 준비가 끝났다. 메모리에 변화 없이 GPU에 화면 출력을 의뢰하고 화면에 실행한 System 구문이 출력된다.
 #####
 
+<img src="/static/메서드실행.PNG" width="469px" height="285px"></img>
 
+#####
+##### 2번째 줄의 블록 시작 기호인 여는 중괄호를 만나면 main() 메서드의 스택 프레임이 생긴다. 이후에 3번째줄을 실행하고
+##### 4번째 줄에서 닫는 중괄호를 만나 메서드의 끝을 알리고 스택 프레임이 소멸된다.
+#####
+
+<img src="/static/image (4).png" width="382px" heigth="204"></img>
+
+#####
+##### main() 메서드가 프로그램의 시작점이자 끝이다. main() 메서드가 끝나면 JRE는 JVM을 종료하고 JRE 자체도 운영체제 상의 메모리
+##### 에서 사라진다. 그럼 T 메모리도 사라지는 것이다.
+
+##### 참고 : 
+##### https://velog.io/@gaya309/TIL-%EB%8B%A4%EC%8B%9C-%EB%B3%B4%EB%8A%94-main-%EB%A9%94%EC%84%9C%EB%93%9C-%EB%A9%94%EC%84%9C%EB%93%9C-%EC%8A%A4%ED%83%9D-%ED%94%84%EB%A0%88%EC%9E%84
