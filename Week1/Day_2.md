@@ -12,7 +12,7 @@
     }
 ```
 
-<img src="/static/useMemory.png" width="643px" height="151px" alt="객체 지향 프로그램의 메모리 사용 방식"></img>
+<img src="/static/T메모리.png" width="643px" height="151px" alt="객체 지향 프로그램의 메모리 사용 방식">
 
 ##### 위 그림 처럼 T 메모리가 있다고 가장하고 각 영역을 어떻게 사용하는지 살펴보자
 #####
