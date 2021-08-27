@@ -4,8 +4,8 @@ public class Driver01 {
     
     public static void main(String[] args) {
         Animal animal = new Animal("동물");
-        Mammalia mammalia = new Mammalia("포유류");
-        Bird bird = new Bird("새");
+        Mammalias mammalia = new Mammalias("포유류");
+        Birds bird = new Birds("새");
         Whale whale = new Whale("고래");
         Bat bat = new Bat("박쥐");
         Sparrow sparrow = new Sparrow("참새");

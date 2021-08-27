@@ -1,6 +1,6 @@
 package inheritance01;
 
-public class Whale extends Mammalia {
+public class Whale extends Mammalias {
 
     public Whale(String myClass) {
         super(myClass);
