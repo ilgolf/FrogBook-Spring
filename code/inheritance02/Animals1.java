@@ -1,9 +1,9 @@
 package inheritance02;
 
-public class Animals {
+public class Animals1 {
     String myClass;
 
-    public Animals(String myClass) {
+    public Animals1(String myClass) {
         this.myClass = myClass;
     }
 

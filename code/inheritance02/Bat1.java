@@ -1,8 +1,8 @@
 package inheritance02;
 
-public class Bat extends Mammalia implements AbleFly {
+public class Bat1 extends Mammalia1 implements AbleFly {
 
-    public Bat(String myClass) {
+    public Bat1(String myClass) {
         super(myClass);
     }
 

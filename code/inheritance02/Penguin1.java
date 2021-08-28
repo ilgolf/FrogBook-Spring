@@ -1,8 +1,8 @@
 package inheritance02;
 
-public class Penguin extends Birds implements AbleSwim {
+public class Penguin1 extends Birds1 implements AbleSwim {
 
-    public Penguin(String myClass) {
+    public Penguin1(String myClass) {
         super(myClass);
     }
 

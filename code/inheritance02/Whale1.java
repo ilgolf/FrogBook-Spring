@@ -1,8 +1,8 @@
 package inheritance02;
 
-public class Whale extends Mammalia implements AbleSwim {
+public class Whale1 extends Mammalia1 implements AbleSwim {
 
-    public Whale(String myClass) {
+    public Whale1(String myClass) {
         super(myClass);
     }
 
