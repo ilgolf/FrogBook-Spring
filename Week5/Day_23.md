@@ -7,7 +7,7 @@
 
 단일 책임 원칙(SRP) 예제를 다시 살펴보자. 단일 책임 원칙을 적용하기 전 남자 클래스는 다음과 같다.
 
-<img src="/static/5-10.PNG" width="513px" height="349px"></img>
+<img src="/static/5-10.png" width="513px" height="349px"></img>
 
 단일 책임 원칙을 적용한 후에는 좀 더 책임을 가는 클래스로 나뉘었다.
 
@@ -68,7 +68,7 @@ public interface ArmyMember {
 
 인터페이스 분할 원칙을 이야기할 때 항상 함께 등장하는 원칙 중 하나로 인터페이스 최소주의 원칙이라는 것이 있다. 인터페이스를 통해 메서드를 외부에 제공할 때는 최소한의 메서드만 제공하라는 것이다. ArmyMember인터페이스에 anniversary라는 기념일을 챙기는 행위는 필요하지 않다. 그렇기에 제공해서는 안되는 메서드이다. 그렇기에 상위 클래스는 풍성할수록 좋고, 인터페이스는 작을 수록 좋다. 
 
-<img src="/static/5-11.PNG" width="513px" height="349px"></img>
+<img src="/static/5-11.png" width="513px" height="349px"></img>
 
 왼) 빈약한 상위 클래스                    오) 풍성한 상위 클래스
 
