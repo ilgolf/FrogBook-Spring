@@ -7,7 +7,11 @@
 
 단일 책임 원칙(SRP) 예제를 다시 살펴보자. 단일 책임 원칙을 적용하기 전 남자 클래스는 다음과 같다.
 
+
+<img src="/static/5-10.png" width="579px" height="361px"></img>
+
 <img src="/static/5-10.png" width="513px" height="349px"></img>
+
 
 단일 책임 원칙을 적용한 후에는 좀 더 책임을 가는 클래스로 나뉘었다.
 
